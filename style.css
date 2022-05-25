@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+.flex{
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: 16px 10px;
+    text-align: center;
+    height: 12px;
+    }
+.flex-content{
+    width:43%;
+    height: 12px;
+}
+.flex-content li{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+#rest{
+    display: flex;
+}
+.content{
+    width: 100%;
+}
+.flex-content button{
+    border: none;
+    text-align: center;
+    height: 37px;
+    width: 106px;
+    margin-left: 530px;
+    background-color: yellow;
+    
+}
+.help{
+    padding: 42px 13%;
+    font-size: 50px;
+    height: 80px;
+    color: white;
+}
+.helpmobile{
+    display: none;
+}
+.flex svg{display: none;}
+.subwords{
+    color: gray;
+    padding: 42px 13%;
+    height: 80px;
+
+}
+.subwordsmobile{display: none;}
+.flexible{
+height: 50px;    display: flex;
+    justify-content: space-between;
+    width: 77%;
+    padding-left: 13%;
+}
+.flexible svg{
+    height: 56px;
+    width: 83px;
+}
+.rigid img{
+    width: 450px;
+    height: 400px;
+    padding: 12px 12px;
+}
+.rigid{
+    display: flex;
+    justify-content: center;
+}
+.rigid div{
+    width: 500px;
+    height: 400px;
+    padding: 12px 12px;
+}
+.pen{
+    color: gray;
+    display: block;
+}
+.rigidX{
+    display: none;
+}
+.sophia{display: none;}
+
+.alia-flex{
+    display: flex;
+    background-color: darkgray;
+    width: 80%;
+    height: 600px;
+}
+
+.flex-conten button{
+    display: none;}
+
+.hamburger{
+    display: none;
+}
+
+
+.ham{display: none;}
+.box:hover .ham{
+    display: none;}
+
+
+#rabboni{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media  (max-width:900px) {
+    .flex  svg{display:block;
+          position:relative;
+          margin-top:  -19px;
+          margin-left:  145%;
+          width: 42px;
+    }
+  
+    body{
+        width: 100%;
+    }
+    .content{
+    width: 95%;
+        
+    }
+    #rest,.flex-content button{display: none;}
+.help{
+    
+    display: none;
+}
+.helpmobile{
+    padding: 42px 10px;
+    font-size: 50px;
+    color: white;
+    display: block;
+    height: 90px;
+}
+
+.flex{
+    padding: 12px 1px;
+    width: 65%;
+    height: 12px;
+    display: inline-block;
+}
+
+.subwords{display: none;}
+
+.subwordsmobile{
+    padding: 42px 10px;
+    height: 45px;
+    color: gray;
+    display: block;
+}
+.flexible{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    height: 124px;
+    justify-content: center;
+    margin-left: 15%;
+}
+.flexible svg{
+    height: 52px;
+    width: 39%;
+    padding: 5px 3px;
+
+}
+.rigid{
+    display: none;
+}
+ .rigidX img{
+     margin-top: 55px;
+    height: 400px;
+    width: 400px;
+    padding: 12px 8%;
+}
+.rigidX{
+    display: block;
+    width:450px;
+    
+
+}
+.apt{
+    color: gray;
+
+}
+.sophia{
+    background-color: grey; 
+    display: block;
+    height: 750px;
+    position: absolute;
+    width: 100%;
+
+    color: whitesmoke;
+}
+.sophia h1{
+font-size: 40px;
+width: 80%;
+height: 180px;
+padding-left: 22px;
+}
+.sophia p{
+    width: 60%;
+    margin-left: 24px;
+    color: #d1e1e1;
+}
+.alia-flex{display: none;}
+.flex-conten button{
+    border: none;
+    text-align: center;
+    height: 37px;
+    width: 106px;
+    background-color: yellow;
+    display: block;
+    margin-left: 34px;
+}
+.foot{
+    height: 60px;
+    background-color:rgb(22, 21, 21);
+    display: flex;
+}
+.foot svg{
+    height: 34px;
+}
+.hamburger svg{
+          display:block;
+          position:relative;
+          margin-top:  -19px;
+          margin-left:  145%;
+          width: 42px;
+}
+.ham{display: none;}
+.box:hover .ham{
+    display: block;
+    background-color:rgb(22, 21, 21);
+    margin-left: 60%;
+    height: 50px;
+    z-index: 5;
+    text-align: left;
+}
+.ham a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#rabboni{
+    display: block;
+}
+#wed{
+    display: none;
+}
+}
